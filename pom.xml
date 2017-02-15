@@ -21,13 +21,23 @@
 		<dependencies>
 
 			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-framework-bom</artifactId>
-				<version>4.3.5.RELEASE</version>
+				<groupId>io.spring.platform</groupId>
+				<artifactId>platform-bom</artifactId>
+				<version>Athens-SR3</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 
+
+
+
+
+			<!--database related depndencies -->
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>6.0.5</version>
+			</dependency>
 
 			<!-- Logging -->
 			<dependency>
@@ -83,5 +93,6 @@
 	<modules>
 		<module>health-app-rest</module>
 		<module>health-app-service</module>
+		<module>health-app-repository</module>
 	</modules>
 </project>
