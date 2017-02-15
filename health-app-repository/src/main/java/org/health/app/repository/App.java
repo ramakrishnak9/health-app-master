@@ -1,4 +1,4 @@
-package com.zeroandone.app.health_app_master;
+package org.health.app.repository;
 
 /**
  * Hello world!
