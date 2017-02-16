@@ -29,7 +29,7 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 		</dependency>
-		
+
 		<!-- Servlet API 3.0 -->
 		<dependency>
 			<groupId>org.glassfish</groupId>
