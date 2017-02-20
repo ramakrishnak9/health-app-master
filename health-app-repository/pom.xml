@@ -16,6 +16,13 @@
 	</properties>
 	<dependencies>
 
+
+		<!-- Apache Related Utility maven dependencies -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+
 		<!-- Spring Dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -33,18 +40,35 @@
 			<artifactId>javax.inject</artifactId>
 		</dependency>
 
+		<!-- Joda -->
+		<!-- Joda -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jadira.usertype</groupId>
+			<artifactId>usertype.spi</artifactId>
+			<version>3.0.0.GA</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jadira.usertype</groupId>
+			<artifactId>usertype.core</artifactId>
+			<version>3.0.0.GA</version>
+		</dependency>
+
+
 
 		<!-- Spring Data JPA -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
+			<version>1.4.3.RELEASE</version>
 		</dependency>
 
-		<!-- Database (H2) -->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-		</dependency>
 
 		<!-- DataSource (HikariCP) -->
 		<dependency>
@@ -56,7 +80,17 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.2.4.Final</version>
 		</dependency>
+
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>4.2.4.Final</version>
+		</dependency>
+
+
 
 		<!--database related dependencies -->
 		<dependency>

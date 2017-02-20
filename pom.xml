@@ -28,6 +28,13 @@
 				<scope>import</scope>
 			</dependency>
 
+			<!-- Apache Related Utility maven dependencies -->
+
+			<dependency>
+				<groupId>commons-lang</groupId>
+				<artifactId>commons-lang</artifactId>
+				<version>2.6</version>
+			</dependency>
 
 
 			<!--database related depndencies -->
